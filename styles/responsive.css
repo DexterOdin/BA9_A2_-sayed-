@@ -205,6 +205,24 @@
     /* responsive video section end */
 
 
+    /* responsive Newsletter section start */
+    .newsletter {
+        padding: 20px;
+    }
+    .newsletter_content{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .newsletter_content .form_section{
+        width: 100%;
+    }
+    .newletter_img{
+        width: 100%;
+    }
+    /* responsive Newsletter section end */
+
+
 
 
 
