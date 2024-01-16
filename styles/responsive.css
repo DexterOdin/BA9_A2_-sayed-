@@ -111,9 +111,24 @@
         grid-template-columns: 1fr;
         grid-template-rows: 300px 300px;
     }
-        
-
     /* responsive Destinatio section end */
+
+
+    /* responsive Choose us section start */
+    .choose_us {
+        padding: 20px;
+    }
+    .choose_us_content p {
+        margin-bottom: 10px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .card .card_box {
+        width: 100%;
+    }
+    
+    /* responsive Choose us section end */
 
 
 
