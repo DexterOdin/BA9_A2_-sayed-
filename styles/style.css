@@ -94,7 +94,7 @@ label {}
 .banner {}
 
 .banner_content {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,6 +211,61 @@ label {}
     font-weight: 800;
     cursor: pointer;
 }
-.popular_tour_content_img{}
-.popular_tour_content_img img{}
 /* our popular tour section end */
+
+/*  Destinatio section start */
+.destination{
+    padding: 50px 0px;
+}
+.destination_contetn{
+    text-align: center;
+}
+.destination_contetn h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination_contetn p{
+    width: 50%;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.gallery{
+    display: grid;
+    gap: 20px;
+}
+.gallery_1st{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+}
+.gallery_2nd{
+     display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 284px;
+}
+.gallery_3rd{
+     display: grid;
+    gap: 20px;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 300px;
+}
+.box{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 1.8rem;
+
+}
+/*  Destinatio section end */

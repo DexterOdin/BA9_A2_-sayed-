@@ -90,4 +90,45 @@
         width: 100%;
     }
     /* responsive our popular tour section end */
+
+    /* responsive Destinatio section start */
+    .destination_contetn p {
+        width: 100%;
+        padding: 20px;
+    }
+    .gallery{
+        padding:0px 20px;
+    }
+    .gallery_1st {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+    }
+    .gallery_2nd {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px;
+    }
+    .gallery_3rd {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+    }
+        
+
+    /* responsive Destinatio section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* end */
 }
