@@ -464,6 +464,7 @@ label {}
     font-weight: 800;
     padding-bottom: 24px;
 }
+
 /* discount card 2 */
 .discount_card2 {
     bottom: 50px;
@@ -525,4 +526,62 @@ label {}
     font-weight: 800;
     padding-bottom: 24px;
 }
+.discoun_btn3{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.discoun_btn3 .dis_btn3 {
+    padding: 14px 21px;
+    border-radius: 8px;
+    background: #FF5400;
+    cursor: pointer;
+    border: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #FFF;
+}
 /* discount section end */
+
+/* video section start */
+.videos{
+    padding: 80px 0;
+}
+.video_content{
+    display: flex;
+    gap: 50px;
+}
+.video_content .video_content_describe{}
+.video_content .video_content_describe ul{
+    margin-left: 20px;
+}
+.video_content .video_content_describe ul li{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #131318;
+    padding-bottom:20px;
+}
+.video_content .video_content_describe h3{
+    color: #131318;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.video_content .video_content_describe p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.video_content_describe .videos_btn{
+    padding: 14px 24px;
+    border: none;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* video section end */

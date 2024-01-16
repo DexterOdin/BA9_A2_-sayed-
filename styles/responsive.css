@@ -177,7 +177,32 @@
         font-size: 0.9rem;
         padding-bottom: 11px;
     }
+    .discoun_btn3{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .discoun_btn3 .dis_btn3{
+        font-size: 1rem;
+    }
     /* responsive discount section end */
+
+    /* responsive video section start */
+    .video_content{
+        flex-direction: column;
+    }
+    .video_content{
+        width: 100%;
+    }
+    .videos{
+        padding: 20px;
+    }
+    .video_content_video{
+        width: 100%;
+    }
+    .video_content_describe{
+        width: 100%;
+    }
+    /* responsive video section end */
 
 
 
