@@ -222,6 +222,21 @@
     }
     /* responsive Newsletter section end */
 
+
+
+    /* responsive bonus start*/
+    .bonus{
+        padding: 20px;
+    }
+    .bonus_all_content{
+        grid-template-columns: 1fr;
+    }
+    .bonus_all_content .bonus_card {
+        width: 100%;
+
+        
+    }
+
     /* responsive footer section  */
     footer {;
         margin-top: 10px;

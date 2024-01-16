@@ -683,8 +683,92 @@ label {}
     font-size: 2rem;
     font-weight: 800;
 }
+.bonus_card{
+    background-size: cover;
+    background-position: center;
+}
 
 /* Newsletter section end */
+
+/* Bonus section start */
+.bonus{
+    padding: 50px 0;
+}
+.bonus_all_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: end;
+    gap: 50px;
+}
+.bonus_all_content .bonus_card{
+    width: 300px;
+    height: 250px;
+    box-shadow: 2px 2px 10px #dedcdc;
+    padding: 23px;
+    border-radius: 16px;
+    position: relative;
+}
+.bonus_all_content .bonus_card h3{
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.bonus_all_content .bonus_card h4{
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.bonus_all_content .bonus_card p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.bonus_card .bonus_icon{}
+.bonus_card .bonus_icon i{
+    height: 30px;
+    width: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffff;
+    background-color: #FF5400;
+    border-radius: 50%;
+}
+.bonus_display_hide{
+    background: #00000078;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.bonus_display_hide h6{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.bonus_card:hover .bonus_display_hide{
+    opacity: 1;
+    cursor: pointer;
+}
+/* Bonus section end */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 footer {
