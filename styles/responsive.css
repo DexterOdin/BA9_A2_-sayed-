@@ -79,4 +79,15 @@
     }
 
     /* responsive banner section end */
+
+
+    /* responsive our popular tour section start */
+    .popular_tour{
+        padding: 20px;
+    }
+    .popular_tour_content{
+        flex-direction: column;
+        width: 100%;
+    }
+    /* responsive our popular tour section end */
 }

@@ -170,5 +170,47 @@ label {}
     color: #fff;
     cursor: pointer;
 }
-
 /* Banner section end */
+
+/* our popular tour section start */
+.popular_tour{
+    padding: 100px 0px;
+}
+.popular_tour_content{
+    display: flex;
+    gap: 60px;
+}
+.popular_tour_content_text{padding-top: 60px;}
+.popular_tour_content_text h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular_tour_content_text p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.popular_tour_content_text ul{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-left: 30px;
+}
+.popular_tour_content_text ul li{margin-bottom: 24px;}
+.popular_tour_content_text .popular_btn{
+    padding: 0.8rem 1.1rem;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.popular_tour_content_img{}
+.popular_tour_content_img img{}
+/* our popular tour section end */
