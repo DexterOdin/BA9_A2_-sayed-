@@ -21,33 +21,61 @@
 
 <body>
     <!-- Navbar section start -->
-
-    <head>
-        <div class="container navigation">
-            <div class="logo_part">
-                <div class="main_logo">
-                    <a href="#"><img src="./Images/Group 40071 (2).png" alt="">
+    <header>
+        <div class="navigation">
+            <div class="container full_menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./Images/Group 40071 (2).png" alt="">
                         <h2>Go <span>Trip</span></h2>
                     </a>
                 </div>
-                <div class="hamburger">
-                    <i class="fa-solid fa-bars"></i>
+                <input type="checkbox" name="" id="toggle" class="toggle_input">
+                <label for="toggle" class="nav_toggle_label">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </label>
+                <div class="main_items">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="menu_part">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+
+
             </div>
         </div>
-    </head>
+    </header>
     <!-- Navbar section end -->
 
-    <main></main>
+    <main>
+        <!-- Banner section start -->
+        <div class="banner">
+            <div class="container banner_content">
+                <h2>Explore exciting destinations</h2>
+                <p>Experience the natural beauty of Crete on our Gramvousa and Balos Excursion. With comfortable
+                    transportation, knowledgeable guides, and plenty of time</p>
+                <div class="banner_input">
+                    <input type="text" placeholder="Where go">
+                    <div class="labels">
+                        <label for="time" class="label_item">When</label>
+                        <select id="time" class="banner_input_time">
+                            <option selected></option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <div class="labels"><label for="time" class="label_item">When</label>
+                        <select id="time" class="banner_input_time">
+                            <option selected></option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <button class="primary_btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+                </div>
+                <!-- Banner section end -->
+    </main>
 
     <!-- Footer section start -->
     <footer></footer>
