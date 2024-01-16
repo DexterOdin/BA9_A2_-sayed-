@@ -347,10 +347,16 @@ label {}
     margin-bottom: 0;
 }
 
-.card_clr1 {background: rgba(251, 181, 99, 0.05);}
+.card_clr1 {
+    background-color: rgba(251, 181, 99, 0.05);
+}
 
-.card_clr2 {background: rgba(41, 206, 246, 0.05);}
+.card_clr2 {
+    background-color: rgba(41, 206, 246, 0.05);
+}
 
-.card_clr3 {background: rgba(233, 68, 68, 0.05);}
+.card_clr3 {
+    background-color: rgba(233, 68, 68, 0.05);
+}
 
 /* Choose us section end */
