@@ -3,6 +3,9 @@
     .full_menu {
         width: 100%;
     }
+    header{
+        max-width: 100%;
+    }
 
     .main_items {
         display: none;
@@ -95,6 +98,9 @@
     .destination_contetn p {
         width: 100%;
         padding: 20px;
+    }
+    .popular_tour_content_img img{
+        width: 100%;
     }
     .gallery{
         padding:0px 20px;
@@ -196,7 +202,7 @@
     .videos{
         padding: 20px;
     }
-    .video_content_video{
+    .video_content_video video{
         width: 100%;
     }
     .video_content_describe{
